@@ -1,0 +1,60 @@
+<!-- Create an image gallery that holds multiple images -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image Gallery</title>
+  </head>
+  <!-- /* Optional CSS added for better look */ -->
+  <style>
+    .gallery {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .gallery figure {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .gallery figcaption {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
+  <body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+      <figure>
+        <img
+          src="https://unsplash.com/photos/E4Ka4e2eBAc/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTUyOTAxODZ8&force=true&w=640"
+          alt="Image 1"
+        />
+        <figcaption>Road Through Mountains</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://unsplash.com/photos/lGP411GRRH4/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTUyOTAxODZ8&force=true&w=640"
+          alt="Image 2"
+        />
+        <figcaption>Beautiful green sky at Night</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://unsplash.com/photos/wi24-KhjmjU/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTUyOTAxODZ8&force=true&w=640"
+          alt="Image 3"
+        />
+        <figcaption>Nature at its best</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

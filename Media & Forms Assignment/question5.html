@@ -1,0 +1,65 @@
+<!-- Create a sign-up and sign-in form with proper validation a).sign up form should have a first name,last name,email,password,confirm password,age,gender,and agree to terms & conditions fields at minimum. b)Sign in form should have email and password fields only.
+note:Validation is must.
+Ex:First name,last name,email cannot be less tham 3 characters,age cannot be negative and cannot be greater than 150,fields are required etc... -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign-Up and Sign-In</title>
+  </head>
+  <body>
+    <h1>Sign-Up</h1>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required /><br />
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br />
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+      /><br />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required /><br />
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label><br />
+
+      <input type="checkbox" id="terms" name="terms" required />
+      <label for="terms">I agree to the terms & conditions</label><br />
+
+      <input type="submit" value="Sign Up" />
+    </form>
+
+    <h1>Sign-In</h1>
+    <form>
+      <label for="signInEmail">Email:</label>
+      <input type="email" id="signInEmail" name="signInEmail" required /><br />
+
+      <label for="signInPassword">Password:</label>
+      <input
+        type="password"
+        id="signInPassword"
+        name="signInPassword"
+        required
+      /><br />
+
+      <input type="submit" value="Sign In" />
+    </form>
+  </body>
+</html>
