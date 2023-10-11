@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #efacde;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transition: background-color 0.3s;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.header.scroll {
+  background-color: #555;
+}
