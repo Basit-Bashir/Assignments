@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
+  /* justify-items: center;  for centering the boxes */
+}
+.container > div {
+  padding: 5px;
+  background-color: bisque;
+  border: 1px solid black;
+}

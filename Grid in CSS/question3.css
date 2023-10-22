@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 100px 100px;
+  grid-auto-rows: 75px;
+  grid-auto-columns: 150px;
+  gap: 10px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
