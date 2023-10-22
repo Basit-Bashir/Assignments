@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 10px;
+  border: 2px solid #000;
+}
+
+nav h2 {
+  color: red;
+}
+div h2 {
+  color: black;
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: blue;
+  text-decoration: underline;
+}
+
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+a[class="active"] {
+  color: green;
+  text-decoration: underline;
+}
+
+a[target="_self"] {
+  background-color: yellow;
+}
+
+p:nth-of-type(1)::first-letter {
+  color: red;
+  font-size: 30px;
+}
+p:last-child::after {
+  content: "...";
+}
