@@ -1,0 +1,6 @@
+The Same-Origin Policy (SOP) is a security measure implemented in browsers that restricts how resources on a web page can interact with resources from another origin. An origin is defined as a combination of the protocol (http/https), domain, and port. According to SOP, a web page can only request resources from the same origin it was loaded from.
+
+Workarounds for Same-Origin Policy:
+CORS (Cross-Origin Resource Sharing): The server can include specific headers (e.g., Access-Control-Allow-Origin) to allow requests from different origins.
+JSONP (JSON with Padding): A workaround for older browsers where a <script> tag is used to request data from another domain.
+Proxy Server: A server-side proxy can be set up to request the data and then serve it to the client.

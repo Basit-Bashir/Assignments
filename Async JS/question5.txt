@@ -1,0 +1,6 @@
+DOM API (Document Object Model): Allows JavaScript to interact with HTML and XML documents. Developers can manipulate elements, attributes, and content dynamically.
+Fetch API: Provides an easier way to make network requests similar to XMLHttpRequest but with a more powerful and flexible feature set.
+Geolocation API: Allows access to the geographical location of the user's device.
+Canvas API: Provides a way to draw graphics using JavaScript on an HTML canvas element.
+Web Storage API (localStorage & sessionStorage): Allows storing data in the browser persistently or for a session.
+Service Worker API: Enables background functionality like push notifications, background sync, and offline capabilities.

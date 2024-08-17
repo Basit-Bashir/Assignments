@@ -1,0 +1,13 @@
+localStorage:
+Stores data with no expiration date. The data persists even after the browser is closed and reopened.
+Example Usage:
+localStorage.setItem('username', 'john_doe');
+const user = localStorage.getItem('username'); // 'john_doe'
+
+sessionStorage:
+Similar to localStorage, but the data is only available for the duration of the page session (i.e., as long as the browser is open). Once the tab or window is closed, the data is removed.
+Example Usage:
+sessionStorage.setItem('authToken', 'abcdef');
+const token = sessionStorage.getItem('authToken'); // 'abcdef'
+
+Both APIs are commonly used for storing user preferences, tokens, and other session-related data in web applications.
