@@ -1,0 +1,43 @@
+.content__paragraph {
+  font-family: Arial, sans-serif;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.content__paragraph--highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.content__paragraph--important {
+  color: red;
+  font-size: 18px;
+}
+
+.content__paragraph--notice {
+  background-color: lightblue;
+  border-left: 5px solid blue;
+}
+
+.content__paragraph--small {
+  font-size: 12px;
+}
+
+.content__paragraph--large {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content__paragraph--error {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  border: 2px solid darkred;
+}
+
+.content__paragraph--success {
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  border: 2px solid darkgreen;
+}

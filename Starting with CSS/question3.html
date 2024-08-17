@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Form Example</title>
+    <link rel="stylesheet" href="styles3.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="#" method="post">
+        <fieldset class="form-section form-section--personal">
+          <legend>Personal Information</legend>
+
+          <label for="first-name">First Name:</label>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            class="input-field"
+          />
+
+          <label for="last-name">Last Name:</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            class="input-field"
+          />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="input-field" />
+        </fieldset>
+
+        <fieldset class="form-section form-section--account">
+          <legend>Account Information</legend>
+
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="input-field"
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="input-field"
+          />
+
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            class="input-field"
+          />
+        </fieldset>
+        >
+        <fieldset class="form-section form-section--preferences">
+          <legend>Preferences</legend>
+
+          <label for="newsletter">Subscribe to Newsletter:</label>
+          <input type="checkbox" id="newsletter" name="newsletter" />
+
+          <label for="updates">Receive Updates:</label>
+          <input type="checkbox" id="updates" name="updates" />
+        </fieldset>
+
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
