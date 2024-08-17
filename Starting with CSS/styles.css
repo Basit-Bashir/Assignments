@@ -1,0 +1,6 @@
+/* External CSS */
+/* This will be applied to all divs with the class "box" unless overridden by internal or inline CSS */
+.box {
+  background-color: lightcoral;
+  border: 2px solid black;
+}
